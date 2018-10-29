@@ -7,7 +7,7 @@ Common middleware project is mainly used in common-server and common-client for 
 You can use this project as dependencie in clojure projects by listing it in project.clj
 
 ```
-[org.clojars.vladimirmarkovic/common-server "0.1.0"]
+[org.clojars.vladimirmarkovic/common-middle "0.1.0"]
 ```
 
 ## Authors
