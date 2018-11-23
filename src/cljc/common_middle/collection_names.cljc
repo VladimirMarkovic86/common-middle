@@ -21,3 +21,9 @@
 (def long-session-cname
      "long-session")
 
+(def session-visible-cname
+     "session-visible")
+
+(def long-session-visible-cname
+     "long-session-visible")
+
