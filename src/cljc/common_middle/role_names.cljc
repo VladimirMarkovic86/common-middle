@@ -21,3 +21,6 @@
 (def test-privileges-rname
      "Test privileges")
 
+(def chat-rname
+     "Chat")
+

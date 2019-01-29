@@ -36,6 +36,9 @@
 (def role-delete
      "role-delete")
 
+(def chat
+     "chat")
+
 (def functionalities
      [user-create
       user-read
@@ -48,5 +51,6 @@
       role-create
       role-read
       role-update
-      role-delete])
+      role-delete
+      chat])
 

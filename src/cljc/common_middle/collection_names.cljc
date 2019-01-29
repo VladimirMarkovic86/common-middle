@@ -15,6 +15,9 @@
 (def preferences-cname
      "preferences")
 
+(def chat-cname
+     "chat")
+
 (def session-cname
      "session")
 

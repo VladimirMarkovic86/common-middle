@@ -36,3 +36,12 @@
 (def get-labels-url
      "/get-labels")
 
+(def get-chat-users-url
+     "/get-chat-users")
+
+(def get-chat-history-url
+     "/get-chat-history")
+
+(def send-chat-message-url
+     "/send-chat-message")
+
