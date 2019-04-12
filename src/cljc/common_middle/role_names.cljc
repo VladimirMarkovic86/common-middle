@@ -24,3 +24,6 @@
 (def chat-rname
      "Chat")
 
+(def reports-rname
+     "Reports")
+

@@ -42,3 +42,6 @@
 (def get-chat-users-url
      "/get-chat-users")
 
+(def reports-url
+     "/reports")
+

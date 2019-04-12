@@ -39,6 +39,9 @@
 (def chat
      "chat")
 
+(def reports
+     "reports")
+
 (def functionalities
      [user-create
       user-read
@@ -52,5 +55,6 @@
       role-read
       role-update
       role-delete
-      chat])
+      chat
+      reports])
 
