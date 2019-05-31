@@ -30,3 +30,6 @@
 (def long-session-visible-cname
      "long-session-visible")
 
+(def reset-password-cname
+     "reset-password")
+

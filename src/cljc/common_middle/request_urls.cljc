@@ -45,3 +45,12 @@
 (def reports-url
      "/reports")
 
+(def forgot-password-url
+     "/forgot-password")
+
+(def reset-password-code-url
+     "/reset-password-code")
+
+(def reset-password-final-url
+     "/reset-password-final")
+
