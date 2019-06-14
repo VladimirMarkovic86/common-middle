@@ -54,3 +54,9 @@
 (def reset-password-final-url
      "/reset-password-final")
 
+(def read-preferences-url
+     "/read-preferences")
+
+(def save-preferences-url
+     "/save-preferences")
+
