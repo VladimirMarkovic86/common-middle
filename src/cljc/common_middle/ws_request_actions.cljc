@@ -27,3 +27,18 @@
 (def rejected-action
      "rejected")
 
+(def make-a-call-action
+     "make-a-call")
+
+(def receive-call-action
+     "receive-call")
+
+(def call-accepted-action
+     "call-accepted")
+
+(def hang-up-call-action
+     "hang-up-call")
+
+(def unavailable-action
+     "unavailable")
+
