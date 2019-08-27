@@ -12,6 +12,9 @@
 (def role-cname
      "role")
 
+(def item-cname
+     "item")
+
 (def preferences-cname
      "preferences")
 

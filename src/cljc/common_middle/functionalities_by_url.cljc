@@ -10,7 +10,8 @@
      (atom
        #{fns/user-read
          fns/language-read
-         fns/role-read}))
+         fns/role-read
+         fns/item-read}))
 
 (defmethod get-functionalities-by-url
   rurls/get-entities-url
@@ -26,7 +27,8 @@
      (atom
        #{fns/user-update
          fns/language-update
-         fns/role-update}))
+         fns/role-update
+         fns/item-update}))
 
 (defmethod get-functionalities-by-url
   rurls/update-entity-url
@@ -37,7 +39,8 @@
      (atom
        #{fns/user-create
          fns/language-create
-         fns/role-create}))
+         fns/role-create
+         fns/item-create}))
 
 (defmethod get-functionalities-by-url
   rurls/insert-entity-url
@@ -58,7 +61,8 @@
      (atom
        #{fns/user-delete
          fns/language-delete
-         fns/role-delete}))
+         fns/role-delete
+         fns/item-delete}))
 
 (defmethod get-functionalities-by-url
   rurls/delete-entity-url
@@ -69,6 +73,21 @@
   rurls/reports-url
   [url]
   fns/reports)
+
+(defmethod get-functionalities-by-url
+  rurls/get-items-url
+  [url]
+  fns/item-read)
+
+(defmethod get-functionalities-by-url
+  rurls/insert-item-url
+  [url]
+  fns/item-create)
+
+(defmethod get-functionalities-by-url
+  rurls/is-item-datetime-taken-url
+  [url]
+  fns/item-read)
 
 (defmethod get-functionalities-by-url
   :default

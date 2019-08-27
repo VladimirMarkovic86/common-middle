@@ -36,6 +36,18 @@
 (def role-delete
      "role-delete")
 
+(def item-create
+     "item-create")
+
+(def item-read
+     "item-read")
+
+(def item-update
+     "item-update")
+
+(def item-delete
+     "item-delete")
+
 (def chat
      "chat")
 
@@ -55,6 +67,10 @@
       role-read
       role-update
       role-delete
+      item-create
+      item-read
+      item-update
+      item-delete
       chat
       reports])
 

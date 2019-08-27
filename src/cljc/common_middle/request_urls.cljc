@@ -60,3 +60,21 @@
 (def save-preferences-url
      "/save-preferences")
 
+(def get-items-url
+     "/get-items")
+
+(def get-item-url
+     "/get-item")
+
+(def insert-item-url
+     "/insert-item")
+
+(def update-item-url
+     "/update-item")
+
+(def delete-item-url
+     "/delete-item")
+
+(def is-item-datetime-taken-url
+     "/is-item-datetime-taken")
+

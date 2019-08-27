@@ -18,6 +18,12 @@
 (def role-mod-rname
      "Role moderator")
 
+(def item-admin-rname
+     "Item administrator")
+
+(def item-mod-rname
+     "Item moderator")
+
 (def test-privileges-rname
      "Test privileges")
 
